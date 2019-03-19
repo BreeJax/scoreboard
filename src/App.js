@@ -30,7 +30,6 @@ class App extends Component {
   }
 
   updateTeam2ScoreSubtract = () => {
-    console.log("here ya go!!")
     let newScoreNeg2 = this.state.team2Score - 1
     this.setState({ team2Score: newScoreNeg2 })
   }
