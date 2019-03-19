@@ -1,3 +1,5 @@
+site: https://musing-brattain-9a78ce.netlify.com/
+
 # Score Board
 
 For this assignment, you will be creating a simple interactive scoreboard for your favorite sport.
