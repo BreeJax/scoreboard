@@ -41,3 +41,9 @@ h1 {
 .update-score section {
   margin: 1rem;
 }
+.team-name input {
+  margin-left: 5px;
+}
+button {
+  margin: 0 2px 0 2px;
+}
