@@ -15,6 +15,10 @@ class App extends Component {
     }
   }
 
+  handleChange(event) {
+    this.setState({ value: event.target.value.toUpperCase() })
+  }
+
   updateTeam1ScoreAdd = () => {
     let newScore1 = this.state.team1Score + 1
     this.setState({ team1Score: newScore1 })
